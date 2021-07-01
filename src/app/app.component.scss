@@ -1,0 +1,19 @@
+td.ui-resizable-column {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.responsive-table .p-datatable-scrollable-view {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+}
+
+.responsive-table .p-datatable-scrollable-header-table,
+.responsive-table .p-datatable-scrollable-body {
+    table-layout: inherit !important
+}
+
+table.p-datatable-scrollable-header-table {
+    display: none !important;
+}
